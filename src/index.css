@@ -12,3 +12,23 @@
   --color-primary-500: oklch(0.62 0.17 256.4);
   --breakpoint-3xl: 120rem;
 }
+
+
+
+/* text-2xl sm:text-3xl md:text-4xl lg:text-5xl  ----->logo*/
+
+/* hero section---> text-3xl sm:text-4xl md:text-5xl lg:text-6xl */
+/* 
+ Hero Subtitle (Short sentence under headline)
+Font: Inter (body)
+Font weight: 400
+Tailwind Classes:
+text-base sm:text-lg md:text-xl lg:text-2xl */
+
+
+
+/* Section Title (H2 / H3)
+Font: Space Grotesk
+Font weight: 600 / 700
+Tailwind Classes:
+text-2xl sm:text-3xl md:text-4xl lg:text-5xl */
