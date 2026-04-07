@@ -48,11 +48,11 @@ const NavBar = () => {
   return (
     <section className="fixed top-0 left-0 w-full z-90000 transition-all duration-500">
       <div
-        className={`mx-auto flex items-center justify-between px-6 py-4 transition-all duration-500
+        className={`mx-auto flex items-center justify-between px-6 transition-all duration-500
           ${
             scrolled
-              ? "max-w-5xl bg-white/80 backdrop-blur-md  shadow-lg rounded-full mt-3 relative z-9999999"
-              : "max-w-7xl bg-transparent"
+              ? "max-w-5xl bg-white/80 backdrop-blur-md  shadow-lg rounded-full mt-3 relative z-9999999 pb-4 pt-6"
+              : "max-w-7xl bg-transparent pt-8 pb-8 "
           }`}
       >
         {/* logo */}
@@ -72,7 +72,7 @@ const NavBar = () => {
         </nav>
 
         {/* CTA button and mobile menu toggle */}
-        <div className="flex items-center gap-6" >
+        <div className="flex items-center gap-6">
           {/* contact button */}
           <div className="hidden md:block">
             <NavCtaButton />
@@ -80,7 +80,7 @@ const NavBar = () => {
 
           {/* mobile toggle menu */}
 
-          <div>
+          <div className="xl:hidden">
             {isOpen ? (
               <button onClick={() => setIsOpen(false)}>
                 <IoMdClose size={30} />{" "}

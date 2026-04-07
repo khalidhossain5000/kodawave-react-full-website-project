@@ -19,8 +19,8 @@ const MobileMenu = ({ navLink, isOpen }) => {
         ))}
       </ul>
       <div className="md:hidden px-6">
-            <NavCtaButton />
-          </div>
+        <NavCtaButton />
+      </div>
     </div>
   );
 };

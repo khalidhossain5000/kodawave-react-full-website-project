@@ -7,12 +7,34 @@
 @import "tailwindcss";
 
 @theme {
-  --font-grotesk:  "Space Grotesk", sans-serif;
-  --font-inter:"Inter", sans-serif;
-  --color-primary-500: oklch(0.62 0.17 256.4);
+  /* Fonts */
+  --font-grotesk: "Space Grotesk", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  /* Primary Brand Color (Indigo/Violet) */
+  --color-primary-500: oklch(0.62 0.17 256.4); /*  original blue/violet */
+  --color-primary-600: oklch(0.55 0.15 256.4); /* Darker for hover states */
+  --color-primary-100: oklch(0.92 0.03 256.4); /* Very light for backgrounds */
+
+/* --- Secondary (/ CTA Color) --- */
+  --color-secondary-500: #f9a300; /* Vibrant Amber - perfect for "Get Started" buttons */
+  --color-secondary-600: #d98e00;
+
+
+  /* text colors */
+  --color-surface-900: #242734;   /* Deep charcoal for headings */
+  --color-surface-600: #4b5563;   /* Gray for body text/subtitles */
+  --color-surface-50: #f9fafb;    /* Off-white for section backgrounds */
+
+
+
+  /* Accent / CTA Colors */
+  --color-accent: oklch(0.70 0.19 338.5); /* A soft Magenta/Pink to pop against the blue */
+  
+  
+  /* Breakpoints */
   --breakpoint-3xl: 120rem;
 }
-
 
 
 /* text-2xl sm:text-3xl md:text-4xl lg:text-5xl  ----->logo*/
