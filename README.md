@@ -1,12 +1,111 @@
-# React + Vite
+# 🚀 PixelGrow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🌐 Modern Business Agency & Digital Service Platform
 
-Currently, two official plugins are available:
+PixelGrow is a sleek and modern **front-end UI project** designed for a business agency that provides digital services such as web development, branding, and growth solutions. The goal of this project is to deliver a visually appealing, responsive, and user-friendly interface that represents a professional agency presence online.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+PixelGrow focuses on creating a high-quality user experience with smooth animations, modern UI components, and a clean layout. It is built entirely as a **frontend project**, making it ideal for showcasing design skills and UI/UX implementation.
+
+---
+
+## ✨ Features
+
+- 🎨 Modern and clean UI design  
+- ⚡ Smooth animations using Motion  
+- 📱 Fully responsive layout  
+- 🔢 Animated counters  
+- 🎞️ Marquee scrolling effects  
+- 🧭 Client-side routing with React Router  
+- 🎯 Reusable components  
+- 🎠 Interactive sliders with Swiper  
+
+---
+
+## 🛠️ Technologies Used
+
+```json
+"dependencies": {
+  "@tailwindcss/vite": "^4.2.2",
+  "motion": "^12.38.0",
+  "react": "^19.1.1",
+  "react-countup": "^6.5.3",
+  "react-dom": "^19.1.1",
+  "react-fast-marquee": "^1.6.5",
+  "react-icons": "^5.6.0",
+  "react-router": "^7.14.0",
+  "styled-components": "^6.3.12",
+  "sweetalert2": "^11.26.24",
+  "swiper": "^12.1.3",
+  "tailwindcss": "^4.2.2"
+}
+```
+
+---
+
+## 🚧 Project Type
+
+This is a **Frontend UI Project**  
+No backend or database integration is included.
+
+---
+
+## 📷 Preview
+
+> Add screenshots or live demo link here
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/pixelgrow.git
+
+# Navigate to project folder
+cd pixelgrow
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+---
+
+## 📁 Folder Structure (Optional)
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── routes/
+ └── App.jsx
+```
+
+---
+
+## 🎯 Purpose
+
+This project is built to:
+
+- Showcase frontend development skills  
+- Practice modern UI/UX design  
+- Build a real-world agency-style website  
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Md Khalid Hossain**  
