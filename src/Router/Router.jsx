@@ -3,8 +3,8 @@ import RootLayout from "../Layouts/RootLayout";
 import HomePage from "../Pages/HomePage/Home";
 import AboutPage from "../Pages/AboutPage/About";
 import BlogPage from "../Pages/BlogPage/Blog";
-import ContactPage from "../Pages/ContactPage/Contact";
 import ServicePage from "../Pages/ServicesPage/Services";
+import ContactPage from "../Pages/ContactPage/Contact";
 
 
 export const router = createBrowserRouter([
@@ -17,19 +17,19 @@ export const router = createBrowserRouter([
             Component:HomePage
         },
         {
-          path:"/services",
+          path:"services",
           Component:ServicePage
         },
         {
-          path:"/about",
+          path:"about",
           Component:AboutPage
         },{
-          path:"/blog",
+          path:"blog",
           Component:BlogPage
         },
         {
-          path:"/contact",
-          Compoent:ContactPage
+          path:"contact",
+          Component:ContactPage
         }
     ]
   },

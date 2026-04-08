@@ -8,9 +8,11 @@ const PrimaryButton = ({
   border = "border-[#8a8af5]",
   textColor = "text-[#242734]",
   className = "",
+  type="submit"
 }) => {
   return (
     <button
+    type={type}
       className={`
         relative cursor-pointer overflow-hidden
         bg-linear-to-b ${bgGradient} 
