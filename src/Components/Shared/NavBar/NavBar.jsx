@@ -45,7 +45,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <section className="fixed top-0 left-0 w-full z-9999999999999999999999999999 transition-all duration-500">
+    <section className="fixed top-0 left-0 w-full z-[9999999999999999999999999999] transition-all duration-500">
       <div
         className={`mx-auto flex items-center justify-between px-6 transition-all duration-500
           ${

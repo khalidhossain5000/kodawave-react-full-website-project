@@ -28,7 +28,7 @@ const ServiceCta = () => {
               <Title
                 title="Have a Specific Project "
                 highlightedWord="in Mind?"
-                className={`max-w-2xl mx-auto`}
+                className={`max-w-2xl mx-auto `}
               />
 
               <Subtitle>
