@@ -4,6 +4,7 @@ import Services from '../../Components/HomePage/ServiceSection/Services';
 import WhyChooseUs from '../../Components/HomePage/WhyChooseUsSection/WhyChooseUs';
 import ClientLogo from '../../Components/HomePage/ClientLogoSection/ClientLogo';
 import Testimonial from '../../Components/HomePage/TestimonialSection/Testimonial';
+import CallToAction from '../../Components/HomePage/CallToActionSection/CallToAction';
 
 const HomePage = () => {
     return (
@@ -13,6 +14,7 @@ const HomePage = () => {
            <WhyChooseUs/>
            <ClientLogo/>
            <Testimonial/>
+           <CallToAction/>
         </div>
     );
 };

@@ -34,7 +34,7 @@ const testimonialData = [
     name: "David Chen",
     role: "Founder of VillaX",
     review:
-      "Building our room booking platform with Khalid was the best decision. The Stripe integration is flawless and the dashboard is incredibly intuitive. A true MERN stack expert.",
+      "Building our room booking platform with PixelGrow was the best decision. The Stripe integration is flawless and the dashboard is incredibly intuitive. A true Full stack expert.",
     rating: 5,
     img: "https://randomuser.me/api/portraits/men/85.jpg",
     bgColor: "bg-[#f4f2fe]",
@@ -62,9 +62,8 @@ const Testimonial = () => {
         >
           Testimonials
         </motion.h4>
-       
 
-        <Title title={'What Our'} highlightedWord={'Clients Say'}/>
+        <Title title={"What Our"} highlightedWord={"Clients Say"} />
       </div>
 
       <div className="max-w-5xl mx-auto">
