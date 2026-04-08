@@ -90,17 +90,14 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className="py-32 px-6 md:px-12 lg:px-20 bg-white overflow-hidden">
+    <section className="py-12 md:py-16 lg:py-18 px-6 md:px-12 lg:px-20 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto text-center mb-20">
-       
-          <Title title={`Elevated Digital`} highlightedWord={"Services"} />
-      
-       
-          
+        <Title title={`Elevated Digital`} highlightedWord={"Services"} />
 
-          <Subtitle className={'max-w-2xl mx-auto pt-6'}>We provide high-end digital solutions tailored to help your business
-          scale and stand out in the modern market.</Subtitle>
-        
+        <Subtitle className={"max-w-2xl mx-auto pt-6"}>
+          We provide high-end digital solutions tailored to help your business
+          scale and stand out in the modern market.
+        </Subtitle>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">

@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import sectionBg from "../../../assets/ctaBg/cta-bg.jpg";
-import { FaCalendarCheck, FaLayerGroup } from "react-icons/fa"; // Updated icons
+import { FaCalendarCheck, FaLayerGroup } from "react-icons/fa"; 
 import PrimaryButton from "../../Shared/Button/PrimaryButton";
 import SecondaryButton from "../../Shared/Button/SecondaryButton";
 import { Link } from "react-router";
@@ -17,21 +17,23 @@ const CallToAction = () => {
       }}
     >
       <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
-        {/* Impactful Header Content */}
+        {/*  Header Content */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="mb-12 space-y-6"
         >
-         
-          <Title title={'Transform Your Vision'} highlightedWord={'Into Digital Reality'} className={'max-w-2xl mx-auto'}/>
+          <Title
+            title={"Transform Your Vision"}
+            highlightedWord={"Into Digital Reality"}
+            className={"max-w-2xl mx-auto"}
+          />
           <p className="max-w-3xl mx-auto text-lg md:text-xl font-medium bg-linear-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent leading-relaxed font-inter">
             From specialized web architectures to full-scale software
             ecosystems, we deliver premium solutions designed to scale your
             business across every platform.
           </p>
-          
         </motion.div>
 
         {/* CTA Buttons with Updated Icons & Links */}
