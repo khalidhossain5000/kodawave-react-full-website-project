@@ -53,20 +53,14 @@ No backend or database integration is included.
 
 ---
 
-## 📷 Preview
-
-> Add screenshots or live demo link here
-
----
-
 ## ⚙️ Installation & Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/pixelgrow.git
+git clone https://github.com/khalidhossain5000/kodawave-react-full-website-project.git
 
 # Navigate to project folder
-cd pixelgrow
+cd kodawave-react-full-website-project
 
 # Install dependencies
 npm install
