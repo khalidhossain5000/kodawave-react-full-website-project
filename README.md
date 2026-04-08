@@ -100,10 +100,6 @@ This project is built to:
 
 ---
 
-
-
----
-
 ## 👨‍💻 Author
 
 Developed by **Md Khalid Hossain**  
