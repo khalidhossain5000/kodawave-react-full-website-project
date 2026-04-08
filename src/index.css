@@ -47,7 +47,11 @@ Font weight: 400
 Tailwind Classes:
 text-base sm:text-lg md:text-xl lg:text-2xl */
 
-
+ .trending-swiper .swiper-pagination-bullet-active {
+                    background: #4f46e5 !important;
+                    width: 24px !important;
+                    border-radius: 4px !important;
+                }
 
 /* Section Title (H2 / H3)
 Font: Space Grotesk
