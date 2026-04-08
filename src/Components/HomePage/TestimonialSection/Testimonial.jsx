@@ -52,7 +52,7 @@ const testimonialData = [
 
 const Testimonial = () => {
   return (
-    <section className="py-32 px-6 lg:px-20 bg-white overflow-hidden">
+    <section className="py-22 px-6 lg:px-20 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto text-center mb-16">
         <motion.h4
           initial={{ opacity: 0 }}

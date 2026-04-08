@@ -2,6 +2,8 @@ import React from "react";
 import PageHeader from "../../Components/Shared/OtherPages/OtherPageHeader/PageHeader";
 import TeamStrategy from "../../Components/AboutPage/TeamStrategy/TeamStrategy";
 import Achievements from "../../Components/AboutPage/AchievmentSection/Achievments";
+import ClientStats from "../../Components/AboutPage/ClientStatisticsSection/ClientStats";
+import Testimonial from "../../Components/HomePage/TestimonialSection/Testimonial";
 const aboutStats = [
   { label: "Global", value: "Standards" },
   { label: "Elite", value: "Execution" },
@@ -21,6 +23,11 @@ const AboutPage = () => {
       <TeamStrategy/>
 
       <Achievements/>
+
+      <ClientStats/>
+
+
+      <Testimonial/>
     </div>
   );
 };
