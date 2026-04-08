@@ -47,7 +47,7 @@ const ServiceCta = () => {
                 </PrimaryButton>
               </Link>
 
-              <Link to="/contact" className=" ">
+              <Link to="/contact" className=" w-full">
                 <SecondaryButton
                   className={`rounded-lg border-slate-400 shadow-sm bg-white text-gray-900 hover:bg-slate-100 hover:scale-105  flex items-center justify-center gap-3 w-full`}
                 >

@@ -8,12 +8,11 @@ const ContactPage = () => {
 
     const contactStats = [
         { label: "24h", value: "Response Time" },
-        { label: "Global", value: "Service Area" },
         { label: "Free", value: "Consultation" }
     ];
 
     return (
-        <div className="bg-[#fbf6f6]">
+        <div className="bg-[#fbf6f6] overflow-hidden">
             <PageHeader 
                 watermark="CONTACT" 
                 titleFirstLine="Start Your" 

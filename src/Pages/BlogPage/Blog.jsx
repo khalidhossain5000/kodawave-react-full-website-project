@@ -7,7 +7,7 @@ const BlogPage = () => {
 
  const blogStats = [
     { label: "Articles", value: "500+" },
-    { label: "Expert Authors", value: "999+" }
+    { label: "Authors", value: "999+" }
   ];
 
   return (

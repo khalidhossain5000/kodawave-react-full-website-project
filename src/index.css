@@ -14,47 +14,31 @@
   /* Primary Brand Color (Indigo/Violet) */
   --color-primary-500: oklch(0.62 0.17 256.4); /*  original blue/violet */
   --color-primary-600: oklch(0.55 0.15 256.4); /* Darker for hover states */
-  --color-primary-100: oklch(0.92 0.03 256.4); /* Very light for backgrounds */
+  --color-primary-100: oklch(0.92 0.03 256.4); 
 
 /* --- Secondary (/ CTA Color) --- */
-  --color-secondary-500: #f9a300; /* Vibrant Amber - perfect for "Get Started" buttons */
+  --color-secondary-500: #f9a300; 
   --color-secondary-600: #d98e00;
 
 
   /* text colors */
-  --color-surface-900: #242734;   /* Deep charcoal for headings */
-  --color-surface-600: #4b5563;   /* Gray for body text/subtitles */
-  --color-surface-50: #f9fafb;    /* Off-white for section backgrounds */
+  --color-surface-900: #242734;   
+  --color-surface-600: #4b5563;  
+  --color-surface-50: #f9fafb;    
 
 
 
   /* Accent / CTA Colors */
-  --color-accent: oklch(0.70 0.19 338.5); /* A soft Magenta/Pink to pop against the blue */
+  --color-accent: oklch(0.70 0.19 338.5); 
   
   
   /* Breakpoints */
-  --breakpoint-3xl: 120rem;
+  --breakpoint-xsm: 425px;
 }
 
 
-/* text-2xl sm:text-3xl md:text-4xl lg:text-5xl  ----->logo*/
 
-/* hero section---> text-3xl sm:text-4xl md:text-5xl lg:text-6xl */
-/* 
- Hero Subtitle (Short sentence under headline)
-Font: Inter (body)
-Font weight: 400
-Tailwind Classes:
-text-base sm:text-lg md:text-xl lg:text-2xl */
+ a.active {
+  color: #6366f1;
 
- .trending-swiper .swiper-pagination-bullet-active {
-                    background: #4f46e5 !important;
-                    width: 24px !important;
-                    border-radius: 4px !important;
-                }
-
-/* Section Title (H2 / H3)
-Font: Space Grotesk
-Font weight: 600 / 700
-Tailwind Classes:
-text-2xl sm:text-3xl md:text-4xl lg:text-5xl */
+}

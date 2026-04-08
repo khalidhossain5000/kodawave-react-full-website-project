@@ -11,7 +11,7 @@ import {
 const BlogsSection = ({ blogsData }) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("All");
-  const [visibleCount, setVisibleCount] = useState(9);
+  const [visibleCount, setVisibleCount] = useState(6);
 
   const categories = [
     "All",

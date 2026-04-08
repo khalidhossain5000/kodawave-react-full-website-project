@@ -35,8 +35,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="lg:max-w-xl px-4 mx-auto text-center mt-5 lg:mt-9 text-[16px] sm:text-xl md:text-2xl text-gray-800 mb-8 xl:mb-12 ">
-            We design, develop, and optimize websites and apps that help your
-            brand stand out and grow online.
+           We engineer, architect, and scale high-performance digital solutions that empower your brand to dominate the market and accelerate global growth.
           </p>
         </div>
         {/* cta buttons */}

@@ -102,25 +102,7 @@ const OfficeLocation = () => {
               </motion.div>
             </div>
 
-            {/* Support/Email Box */}
-            <motion.a
-              href="mailto:hello@khalidhossain.dev"
-              variants={itemVariants}
-              whileHover={{ scale: 1.02 }}
-              className="mt-auto p-8 bg-slate-900 rounded-[2.5rem] text-white flex items-center justify-between group cursor-pointer shadow-2xl shadow-slate-900/20"
-            >
-              <div>
-                <p className="text-slate-400 text-[10px] uppercase tracking-[0.2em] mb-2 font-black">
-                  Direct Support
-                </p>
-                <h4 className="text-xl font-semibold tracking-tight">
-                  hello@khalidhossain.dev
-                </h4>
-              </div>
-              <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-white group-hover:text-slate-900 transition-all duration-300">
-                <HiOutlineArrowRight className="text-2xl" />
-              </div>
-            </motion.a>
+           
           </div>
 
           {/* Right Side: Map Container (Column Span 7 - Expanded Size) */}
@@ -143,7 +125,7 @@ const OfficeLocation = () => {
               ></iframe>
 
               {/* Status Badge */}
-              <div className="absolute bottom-8 left-8 bg-white/90 backdrop-blur-xl p-6 rounded-[2rem] border border-white/50 shadow-2xl hidden md:block">
+              <div className="absolute bottom-8 left-8 bg-white/90 backdrop-blur-xl p-6 rounded-lg border border-white/50 shadow-2xl hidden md:block">
                 <div className="flex items-center gap-4">
                   <div className="relative flex h-3 w-3">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>

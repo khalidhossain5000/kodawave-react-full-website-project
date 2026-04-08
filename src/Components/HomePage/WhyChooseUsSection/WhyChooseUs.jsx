@@ -70,7 +70,7 @@ const WhyChooseUs = () => {
               </div>
               {/* country served stats */}
               <div className="border-l border-slate-300 h-12"></div>
-              <div>
+              <div className="hidden sm:block">
                 <h3 className="text-3xl font-bold text-slate-900">95+</h3>
                 <p className="text-slate-500 text-sm">Countries Served</p>
               </div>

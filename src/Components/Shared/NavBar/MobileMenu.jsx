@@ -1,8 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import NavCtaButton from "../Button/NavCtaButton";
 
-const MobileMenu = ({ navLink, isOpen }) => {
+const MobileMenu = ({ navLink, isOpen ,setIsOpen}) => {
   return (
     <div
       className={`pb-12 absolute top-full left-0 w-full bg-linear-to-b bg-slate-100  to-slate-300 border-none shadow-2xl transition-all duration-300 origin-top  ${
@@ -13,13 +13,15 @@ const MobileMenu = ({ navLink, isOpen }) => {
     >
       <ul className="flex flex-col p-6 gap-4 font-semibold text-gray-700 border-t border-gray-100">
         {navLink.map((item, i) => (
-          <NavLink href={item.path} key={`o${i}`}>
+          <NavLink to={item.path} key={`o${i}`} onClick={()=>setIsOpen(false)}>
             {item.label}
           </NavLink>
         ))}
       </ul>
       <div className="md:hidden px-6">
-        <NavCtaButton />
+        <Link to="/contact" onClick={()=>setIsOpen(false)}>
+          <NavCtaButton />
+        </Link>
       </div>
     </div>
   );
