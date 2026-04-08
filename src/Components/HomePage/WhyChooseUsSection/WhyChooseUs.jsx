@@ -9,21 +9,21 @@ const reasons = [
     title: "Fast-Track Delivery",
     desc: "We don't just build; we accelerate. Our MERN stack expertise ensures high-performance apps delivered on time.",
     bgColor: "bg-[#fff5f5]",
-    cardBg:"bg-[#f0eafd]"
+    cardBg: "bg-[#f0eafd]",
   },
   {
     icon: <FaGem className="text-indigo-500 text-3xl" />,
     title: "Premium UI/UX Only",
     desc: "Pixel-perfect designs with fluid animations using Framer Motion and GSAP. We make your brand look expensive.",
     bgColor: "bg-[#f4f2fe]",
-      cardBg:"bg-[#d7c8ff]"
+    cardBg: "bg-[#d7c8ff]",
   },
   {
     icon: <FaShieldAlt className="text-cyan-500 text-3xl" />,
     title: "Scalable & Secure",
     desc: "From Stripe integration to secure Auth, we build architectures that grow with your business without breaking.",
     bgColor: "bg-[#ebfdfe]",
-      cardBg:"bg-[#e9f2f8]"
+    cardBg: "bg-[#e9f2f8]",
   },
 ];
 
