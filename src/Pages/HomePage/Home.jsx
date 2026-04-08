@@ -3,6 +3,7 @@ import Hero from '../../Components/HomePage/HeroSection/Hero';
 import Services from '../../Components/HomePage/ServiceSection/Services';
 import WhyChooseUs from '../../Components/HomePage/WhyChooseUsSection/WhyChooseUs';
 import ClientLogo from '../../Components/HomePage/ClientLogoSection/ClientLogo';
+import Testimonial from '../../Components/HomePage/TestimonialSection/Testimonial';
 
 const HomePage = () => {
     return (
@@ -11,6 +12,7 @@ const HomePage = () => {
            <Services/>
            <WhyChooseUs/>
            <ClientLogo/>
+           <Testimonial/>
         </div>
     );
 };

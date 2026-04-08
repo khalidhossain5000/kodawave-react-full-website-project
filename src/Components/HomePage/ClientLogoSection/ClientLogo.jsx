@@ -30,51 +30,50 @@ const ClientLogo = () => {
         Empowering 1,000+ industry leaders and global innovators.
       </h3>
       {/* logo marquee top-1 */}
- <div className="pt-8">
-      <Marquee
-        className=""
-        gradient={true}
-        gradientColor="white"
-        speed={50}
-        pauseOnHover={true}
-      >
-        {clientRowOne.map((logo) => (
-          <div
-            key={logo.id}
-            className="mx-12 w-32 flex items-center justify-center"
-          >
-            <img
-              src={logo.src}
-              alt={logo.alt}
-              className="w-full h-auto object-contain hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer"
-            />
-          </div>
-        ))}
-      </Marquee>
-</div>
+      <div className="pt-8">
+        <Marquee
+          className=""
+          gradient={true}
+          gradientColor="white"
+          speed={50}
+          pauseOnHover={true}
+        >
+          {clientRowOne.map((logo) => (
+            <div
+              key={logo.id}
+              className="mx-12 w-32 flex items-center justify-center"
+            >
+              <img
+                src={logo.src}
+                alt={logo.alt}
+                className="w-full h-auto object-contain hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer"
+              />
+            </div>
+          ))}
+        </Marquee>
+      </div>
       {/* logo marquee top-2 */}
       <div className="pt-5">
-      <Marquee
-       
-        gradient={true}
-        gradientColor="white"
-        speed={50}
-        pauseOnHover={true}
-        direction="right"
-      >
-        {clientRowTwo.map((logo) => (
-          <div
-            key={logo.id}
-            className="mx-12 w-32 flex items-center justify-center"
-          >
-            <img
-              src={logo.src}
-              alt={logo.alt}
-              className="w-full h-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer"
-            />
-          </div>
-        ))}
-      </Marquee>
+        <Marquee
+          gradient={true}
+          gradientColor="white"
+          speed={50}
+          pauseOnHover={true}
+          direction="right"
+        >
+          {clientRowTwo.map((logo) => (
+            <div
+              key={logo.id}
+              className="mx-12 w-32 flex items-center justify-center"
+            >
+              <img
+                src={logo.src}
+                alt={logo.alt}
+                className="w-full h-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer"
+              />
+            </div>
+          ))}
+        </Marquee>
       </div>
     </div>
   );
